@@ -23,7 +23,7 @@
 
 <section id="home">
     <h2>Welcome</h2>
-    <p>I create beautiful custom embroidery designs for blouses, names, and special occasions.</p>
+    <p>I create beautiful custom embroidery designs for blouses, names, and custom gifts.</p>
 </section>
 
 <section id="gallery" class="gallery">
@@ -36,11 +36,11 @@
 <section id="order">
     <h2>Place Your Order</h2>
 
-    <form>
-        <input type="text" placeholder="Your Name" required><br><br>
-        <input type="text" placeholder="Design Type (Blouse / Name / Custom)" required><br><br>
-        <textarea placeholder="Describe your design"></textarea><br><br>
-        <button type="submit">Submit</button>
+    <form onsubmit="sendToWhatsApp(); return false;">
+        <input type="text" id="name" placeholder="Your Name" required><br><br>
+        <input type="text" id="type" placeholder="Design Type (Blouse / Name / Custom)" required><br><br>
+        <textarea id="details" placeholder="Describe your design"></textarea><br><br>
+        <button type="submit">Send Order via WhatsApp</button>
     </form>
 </section>
 
@@ -50,14 +50,31 @@
     <p>💬 WhatsApp: 9042394553</p>
 </section>
 
-<!-- WhatsApp Button -->
-<a href="https://wa.me/919042394553" target="_blank" class="whatsapp-btn">
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919042394553?text=Hi%20I%20want%20embroidery%20design"
+   target="_blank"
+   class="whatsapp-btn">
     💬 Order on WhatsApp
 </a>
 
 <footer>
     <p>© 2026 Prasanna Embroidery</p>
 </footer>
+
+<!-- JavaScript -->
+<script>
+function sendToWhatsApp() {
+    let name = document.getElementById("name").value;
+    let type = document.getElementById("type").value;
+    let details = document.getElementById("details").value;
+
+    let message = `Hi, I am ${name}%0ADesign Type: ${type}%0ADetails: ${details}`;
+
+    let url = "https://wa.me/919042394553?text=" + message;
+
+    window.open(url, "_blank");
+}
+</script>
 
 </body>
 </html>

@@ -1,0 +1,129 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #fff5f7, #ffe0ec);
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #d63384, #ff66a3);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #f8c8dc;
+    padding: 12px;
+}
+
+nav a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d63384;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact {
+    background-color: #ffe0ec;
+    padding: 25px;
+}
+
+/* Order Form */
+form {
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #d63384;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff66a3;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .gallery img {
+        width: 90%;
+        height: auto;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+}

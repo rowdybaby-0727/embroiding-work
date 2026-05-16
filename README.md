@@ -304,7 +304,7 @@ https://wa.me/<phone_number>?text=<message>
 ## 🏠 Homepage Preview
 
 <div align="center">
-<img src="homepage.png" alt="Embroidery Website Homepage Preview" width="900"/>
+<img src="<img width="2816" height="1536" alt="homepage" src="https://github.com/user-attachments/assets/0ace1eb9-f3c6-467d-8919-84064e45d482" />" alt="Embroidery Website Homepage Preview" width="900"/>
 </div>
 
 ---
@@ -312,7 +312,7 @@ https://wa.me/<phone_number>?text=<message>
 ## 📲 Mobile Responsive View
 
 <div align="center">
-<img src="mobile responsive.png" alt="Mobile Responsive Embroidery Website Preview" width="900"/>
+<img src="<img width="2816" height="1536" alt="mobile responsive" src="https://github.com/user-attachments/assets/190fb040-f48c-4e3c-90b1-a8a9cf9f0314" />" alt="Mobile Responsive Embroidery Website Preview" width="900"/>
 </div>
 
 ---

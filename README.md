@@ -283,7 +283,8 @@ embroiding-work/
 
 <div align="center">
 
-![Uploading mobile responsive.png…]()
+<img width="2816" height="1536" alt="mobile responsive" src="https://github.com/user-attachments/assets/b4df0315-5d01-4124-ac29-40d6c099a5af" />
+
 
 
 </div>

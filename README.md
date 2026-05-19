@@ -1,5 +1,3 @@
-<img width="2816" height="1536" alt="gallery" src="https://github.com/user-attachments/assets/1e318df5-a092-4e22-9259-4e91f866fa7f" /><img width="2816" height="1536" alt="homepage" src="https://github.com/user-attachments/assets/93dc05ff-e83e-4fcd-8edc-7ec0595c64c8" /><div align="center">
-
 # 🧵 Embroidery Showcase Website
 ### *Modern Responsive Embroidery Art Gallery Website using HTML & CSS*
 
